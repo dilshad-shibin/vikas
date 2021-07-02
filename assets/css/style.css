@@ -2429,7 +2429,7 @@ img {
 
 .elec-content p{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .elec-img{
@@ -2457,7 +2457,7 @@ img {
 .single-product{
     padding: 15px;
     background: #fff;
-    box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
+    box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
     margin-bottom: 10px;
 }
 

@@ -110,6 +110,12 @@
     .brands-row .col-12{
         flex: 0 0 48%
     }
+    .banner-area{
+        height: 65vh;
+    }
+    .banner-img img{
+        max-width: 240px;
+    }
 }
 
 @media(max-width: 400px){
