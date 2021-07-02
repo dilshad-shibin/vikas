@@ -1,0 +1,119 @@
+/* only responsive css */
+@media(max-width: 1440px){
+    .banner-content{
+        padding-top: 35px;
+    }
+    .banner-btn{
+        text-align: unset;
+        padding-left: 35px;
+    }
+}
+
+@media(max-width: 1280px){
+    .banner-head h1{
+        font-size: 50px;
+    }
+    .banner-img img{
+        max-width: 300px;
+    }
+    .banner-content{
+        padding-left: 80px;
+        padding-top: 0;
+    }
+    .banner-btn{
+        text-align: unset;
+        padding-left: 50px;
+    }
+}
+
+@media(max-width: 1199px){
+    .elec-img{
+        position: absolute;
+        top: -20px;
+    }
+    .appliances-img{
+        top: -20px;
+    }
+}
+
+@media(max-width: 991px){
+    .banner-content{
+        padding-top: 40px;
+    }
+    .products-area{
+        margin-top: 540px;
+    }
+    .elec-img{
+        top: 30px;
+    }
+    .elec-img img{
+        max-width: 500px;
+    }
+    .appliances-img{
+        top: 260px;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 767px){
+    .wpo-header-style-3 .topbar ul>li.phone-list,
+    .wpo-header-style-3 .topbar ul>li.social-icons{
+        display: none;
+    }
+    .brands-row .col-12{
+        flex: 0 0 30%
+    }
+    .top-footer{
+        text-align: center;
+    }
+    .ft-phone{
+        justify-content: center;
+    }
+    .footer-logo{
+        margin-bottom: 40px;
+    }
+    .footer-contacts{
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:575px){
+    .navbar-brand>img{
+        max-width: 250px;
+    }
+    .wpo-header-style-3 .topbar ul{
+        height: 70px;
+    }
+    .about-content{
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 450px){
+    .banner-content{
+        padding-left: 0;
+    }
+    .banner-para p::before{
+        width: 18%;
+    }
+    .elec-img img{
+        max-width: 100%;
+    }
+    .products-area{
+        margin-top: 340px;
+    }
+    .products-area2{
+        margin-top: 380px;
+    }
+    .brands-row .col-12{
+        flex: 0 0 48%
+    }
+}
+
+@media(max-width: 400px){
+    .appliances-img{
+        top: 430px;
+    }
+}
