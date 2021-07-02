@@ -94,6 +94,13 @@
 @media(max-width: 450px){
     .banner-content{
         padding-left: 0;
+        text-align: center;
+    }
+    .banner-head h1{
+        font-size: 38px;
+    }
+    .banner-para p{
+        font-size: 20px;
     }
     .banner-para p::before{
         width: 18%;
@@ -111,10 +118,17 @@
         flex: 0 0 48%
     }
     .banner-area{
-        height: 65vh;
+        height: 55vh;
     }
     .banner-img img{
-        max-width: 240px;
+        max-width: 200px;
+    }
+    .banner-btn{
+        padding-left: 0;
+    }
+    .banner-btn a{
+        padding: 15px 25px;
+        font-size: 16px;
     }
 }
 
