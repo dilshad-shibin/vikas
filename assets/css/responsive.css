@@ -89,6 +89,9 @@
     .about-content{
         margin-bottom: 30px;
     }
+    .electronics-area{
+        padding: 70px 0 100px;
+    }
 }
 
 @media(max-width: 450px){
@@ -129,6 +132,13 @@
     .banner-btn a{
         padding: 15px 25px;
         font-size: 16px;
+    }
+    .single-product{
+        text-align: center;
+    }
+    .product-img img{
+        max-width: 250px;
+        margin: 0 auto;
     }
 }
 

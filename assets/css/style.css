@@ -2455,15 +2455,19 @@ img {
 }
 
 .single-product{
-    padding: 15px;
+    /* padding: 15px; */
     background: #fff;
     box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
     margin-bottom: 10px;
 }
 
+.product-text{
+    padding: 10px;
+}
+
 .product-text h1{
     font-size: 20px;
-    margin: 20px 0;
+    margin: 10px 0;
     text-transform: uppercase;
     color: #d02353;
     font-weight: 800;
