@@ -441,6 +441,7 @@
             responsive: {
                 0: {
                     items: 1,
+                    margin: 30
                 },
 
                 650: {
