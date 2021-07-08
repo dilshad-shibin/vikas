@@ -2854,3 +2854,298 @@ img {
 .copyright-area a img{
     max-width: 100px;
 }
+
+/* About Us Page Starting breadcrumb area */
+.breadcrumb-area{
+    background-image: url(../img/breadcrumbs/about-bread.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 370px;
+}
+
+.breadcrum-inner{
+    position: absolute;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.bread-head{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.bread-head h1{
+    color: #fff;
+    font-size: 52px;
+    font-weight: 800;
+    position: relative;
+    text-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+}
+
+.bread-head h1::before{
+    position: absolute;
+    content: "";
+    background-color: #d02353;
+    height: 4px;
+    width: 30%;
+    left: 0;
+    bottom: -15px;
+    border-radius: 10px;
+}
+
+.bread-links ul{
+    display: flex;
+}
+
+.bread-links ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+
+.bread-links ul li a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.bread-links ul li a:hover{
+    color: #ebd57d;
+    text-decoration: underline;
+}
+
+.bread-links ul li+li::before{
+    padding: 0 1px;
+    color: #fff;
+    content: "/\00a0";
+    font-size: 20px;
+}
+
+/* why-vikas */
+.why-vikas{
+    padding: 100px 0 70px;
+}
+
+.why-vikas-head{
+    margin-bottom: 35px;
+}
+
+.why-vikas-head h4{
+    color: #d02353;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.why-vikas-head h1{
+    color: #2a2626;
+    font-weight: 800;
+    font-size: 42px;
+}
+
+.why-vikas-content p{
+    color: #731549;
+    font-size: 21px;
+    max-width: 450px;
+    line-height: 1.6em;
+    position: relative;
+}
+
+.why-vikas-content P::before{
+    position: absolute;
+    content: "";
+    background-color: #d02353;
+    height: 5px;
+    width: 16%;
+    border-radius: 10px;
+    left: 0;
+    bottom: -32px;
+}
+
+.why-vikas-text p{
+    color: #585858;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+/* vikas-count area */
+.vikas-count{
+    background-image: url(../img/about/count-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+}
+
+.count-head h1{
+    color: #fff;
+    margin-bottom: 70px;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+.count-box-head{
+    display: flex;
+    align-items: center;
+}
+
+.count-box h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.count-box span{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.count-box-3{
+    padding-left: 30px;
+}
+
+.count-box p{
+    color: #f3c8d4;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}
+
+.counter-area{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -35px;
+}
+
+.counter-area2{
+    display: flex;
+}
+
+/* Missin & Vision */
+.msn-vsn{
+    padding: 100px 0;
+    background-color: #f6f6f6;
+}
+
+.msn-box{
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 30px;
+    transition: all .3s ease-in-out;
+    transform: translateY(0);
+}
+
+.msn-box:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.msn-box1{
+    margin-right: 30px;
+}
+
+.msn-box2{
+    margin-left: 30px;
+}
+
+.msn-head h1{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.msn-para p{
+    font-size: 18px;
+    color: #585858;
+}
+
+
+/* Committed area */
+.commited-area{
+    padding: 100px 0;
+}
+
+.com-box{
+    margin-bottom: 85px;
+}
+
+.com-head{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.com-head h1{
+    color: #2a2626;
+    font-size: 25px;
+    font-weight: 800;
+    position: relative;
+}
+
+.com-head h1::before{
+    position: absolute;
+    content: "";
+    background-color: #d02353;
+    height: 4px;
+    width: 12%;
+    left: 0;
+    bottom: -25px;
+}
+
+.com-para p{
+    font-size: 17px;
+    color: #585858;
+}
+
+.career-img{
+    background-image: url(../img/about/career.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.career-content{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.careeer-head{
+    margin-bottom: 50px;
+}
+
+.careeer-head h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.careeer-head p{
+    color: #fff;
+    max-width: 500px;
+    font-size: 18px;
+}
+
+.career-btn a{
+    background: #d02353;
+    color: #fff;
+    padding: 18px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all .3s ease;
+    border: 1px solid #d02353;
+}
+
+.career-btn a:hover{
+    background-color: #fff;
+    color: #d02353;
+}
