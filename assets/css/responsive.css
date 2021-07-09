@@ -185,6 +185,13 @@
     .section-title-one::before{
         display: none;
     }
+    .ee-product{
+        text-align: center;
+    }
+    .seller-img img{
+        max-width: 180px;
+        margin: 0 auto;
+    }
 }
 
 @media(max-width: 450px){
