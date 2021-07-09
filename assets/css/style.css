@@ -3,6 +3,7 @@
 ----------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Syne:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
 /*--------------------------------------------------------------
 #0.1    Theme Reset Style
@@ -1951,9 +1952,6 @@ img {
 }
 
 @media(max-width:450px){
-    .hero-2 .slide .container{
-        /* padding: 0; */
-    }
     .hero-2 .slick-next,
     .hero-2:hover .slick-next{
         left: 88%;
@@ -2154,10 +2152,6 @@ img {
     .wpo-case-details-tab .nav li a h2{
         font-size: 22px;
     }
-    .wpo-case-details-tab .nav li a.honey-svg svg{
-        /* width: 80px;
-        height: 80px; */
-    }
 }
 
 @media(max-width:991px){
@@ -2295,7 +2289,7 @@ img {
     margin: 0 15px;
 }
 
-..wpo-header-style-3 .topbar ul>li:last-child{
+.wpo-header-style-3 .topbar ul>li:last-child{
     padding-right: 0;
 }
 
@@ -3148,4 +3142,270 @@ img {
 .career-btn a:hover{
     background-color: #fff;
     color: #d02353;
+}
+
+/*---- Electronics Page ----- */
+.box2-area{
+    padding: 100px 0;
+}
+
+.box2-area .banner{
+    background-color: #fffbef;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.box2-area .banner .banner-image{
+    flex: 50%;
+    position: relative;
+}
+
+.box2-area .banner .banner-text{
+    flex: 50%;
+}
+
+.box2-area .banner .banner-text h1{
+    color: #2a2626;
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+
+.box2-area .banner .banner-text a{
+    background: #d02353;
+    color: #fff;
+    padding: 18px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all .3s ease;
+    border: 1px solid #d02353;
+    text-transform: uppercase;
+}
+
+.box2-area .banner .banner-text a:hover{
+    background-color: #fff;
+    color: #d02353;
+}
+
+.box2-area .banner .banner-text2{
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.box2-area .banner .banner-text2 a{
+    background: #d02353;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #d02353;
+}
+
+.box2-area .banner .banner-text2 a:hover{
+    background-color: #fff;
+    color: #d02353;
+}
+
+.box2-area .banner .banner-text2 a span{
+    font-size: 12px;
+}
+
+.single-product .product-img{
+    background: #f6f7f8;
+}
+
+/* best-seller */
+.best-seller{
+    padding: 10px 0 60px;
+}
+
+.section-title-one{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.section-title-one h1{
+    font-weight: 700;
+    line-height: 30px;
+    background-color: #ffffff;
+    padding: 10px 25px;
+    margin: 0;
+    margin-left: 40px;
+    float: left;
+    position: relative;
+    z-index: 3;
+    /* color: #d02353; */
+    font-size: 30px;
+}
+
+.section-title-one::before{
+    font-size: 52px;
+    color: #cccccc;
+    line-height: 46px;
+    font-family: "Oswald", sans-serif;
+    content: attr(data-title);
+    font-weight: 700;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    padding-left: 25px;
+    background-color: #ffffff;
+}
+
+.section-title-one::after{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #e8e8e8;
+    z-index: -1;
+}
+
+.ee-product{
+    -webkit-box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+    box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 30px;
+}
+
+.seller-img{
+    position: relative;
+    background: #f6f7f8;
+}
+
+.seller-content{
+    background: #fff;
+    overflow: hidden;
+}
+
+.seller-content h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #d02353;
+    font-weight: 800;
+    padding: 10px;
+}
+
+/* tv ad */
+.tv-ad{
+    padding: 10px 0 60px;
+}
+
+.tvad-area{
+    background: #fffbef;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.tvad-content,
+.tvad-img{
+    flex: 50%;
+}
+
+.tvad-content{
+    padding-left: 100px;
+}
+
+.tvad-content h1{
+    color: #2a2626;
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+
+.tvad-content a{
+    background: #d02353;
+    color: #fff;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all .3s ease;
+    border: 1px solid #d02353;
+    text-transform: uppercase;
+}
+
+.tvad-content a:hover{
+    background: #fff;
+    color: #d02353;
+}
+
+
+.offer-btn{
+    position: absolute;
+    right: -85px;
+    padding: 5px 25px 5px 18px;
+    transform: rotate(-90deg);
+}
+
+.offer-btn a{
+    background: #fcda00;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000;
+    padding: 10px 20px;
+    font-weight: 800;
+    word-spacing: 2px;
+}
+
+/* Electronics Feature  area */
+.ele-feature{
+    padding-bottom: 50px;
+}
+
+.feature{
+    background-color: #f6f7f8;
+    padding: 30px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.feature-wrap{
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    padding: 25px 15px 20px;
+}
+
+.feature-wrap .icon{
+    display: inline-block;
+    margin-bottom: 14px;
+    position: relative;
+    overflow: hidden;
+    height: 29px;
+    width: 42px;
+}
+
+.feature-wrap .icon img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.feature:hover .feature-wrap .icon img{
+    top: -29px;
+}
+
+.feature-wrap h4{
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.feature-wrap p{
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
 }

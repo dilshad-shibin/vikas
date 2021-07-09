@@ -46,8 +46,8 @@
     .banner-content{
         padding-top: 40px;
     }
-    .products-area{
-        margin-top: 540px;
+    .products-area3{
+        margin-top: 50px;
     }
     .elec-img{
         top: 30px;
@@ -123,6 +123,19 @@
     .career-content{
         padding-left: 50px;
     }
+    .tvad-area{
+        flex-direction: column;
+    }
+    .tvad-content{
+        padding-left: 0;
+        margin-bottom: 60px;
+    }
+    .offer-btn{
+        top: 50%;
+    }
+    .section-title-one::before{
+        font-size: 35px;
+    }
 }
 
 @media(max-width:575px){
@@ -156,6 +169,21 @@
     }
     .msn-box{
         padding: 20px;
+    }
+    .box2-area .banner .banner-image{
+        flex: 100%;
+    }
+    .box2-area .banner{
+        flex-direction: column;
+    }
+    .box2-area .banner .banner-text h1{
+        font-size: 35px;
+    }
+    .box2-area .banner .banner-text{
+        margin-bottom: 25px;
+    }
+    .section-title-one::before{
+        display: none;
     }
 }
 
@@ -242,6 +270,22 @@
     .msn-para p,
     .com-para p,
     .why-vikas-text p{
+        font-size: 16px;
+    }
+    .products-area3{
+        margin-top: 50px;
+    }
+    .products-area3 .products-head h1{
+        font-size: 28px;
+    }
+    .tvad-content h1{
+        font-size: 30px;
+    }
+    .offer-btn a{
+        font-size: 16px;
+    }
+    .tvad-content a{
+        padding: 12px 30px;
         font-size: 16px;
     }
 }
