@@ -3443,11 +3443,11 @@ img {
     position: absolute;
     content: "";
     background-color: #d02353;
-    width: 10%;
+    width: 6%;
     height: 5px;
     left: 50%;
     transform: translate(-50%,-50%);
-    bottom: -20px;
+    bottom: -25px;
 }
 
 .choose-box{
@@ -3487,7 +3487,7 @@ img {
 
 /* new arrivals */
 .new-arrivals{
-    padding: 70px 0;
+    padding: 100px 0 70px;
 }
 
 .arrivals-head{
@@ -3556,7 +3556,7 @@ img {
 
 .shop-cat{
     background-color: #f3f3ed;
-    padding: 100px 0;
+    padding: 70px 0 100px;
 }
 
 .cat-inner{
@@ -3599,4 +3599,58 @@ img {
     text-transform: uppercase;
     font-size: .875rem;
     font-weight: 700;
+}
+
+/* Home Appliances Page */
+.washing-ad{
+    padding: 100px 0;
+}
+
+.washingad-area{
+    background: #d02353;
+    padding: 0 30px 30px; 
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.washingad-content{
+    padding-left: 100px;
+    flex: 50%;
+}
+
+.washingad-content h1{
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.washingad-content a{
+    background: #ffff;
+    color: #d02353;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all .3s ease;
+    border: 1px solid #d02353;
+    text-transform: uppercase;
+}
+
+.washingad-img{
+    flex: 50%;
+}
+
+.products-area4{
+    margin-top: 0;
+}
+
+.box2-area2{
+    padding: 0 0 100px;
+}
+
+.single-product2{
+    box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
+    margin: 10px;
 }
