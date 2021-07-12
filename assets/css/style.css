@@ -3371,6 +3371,10 @@ img {
     padding-bottom: 50px;
 }
 
+.ele-feature2{
+    padding-top: 80px;
+}
+
 .feature{
     background-color: #f6f7f8;
     padding: 30px;
@@ -3416,4 +3420,183 @@ img {
     font-size: 14px;
     line-height: 20px;
     margin: 0;
+}
+
+/* ---Furniture Page ------ */
+.fur-choose{
+    padding: 70px 0;
+    background-color: #ebf1f0;
+}
+
+.choose-head{
+    margin-bottom: 80px;
+}
+
+.choose-head h1{
+    color: #2a2626;
+    font-weight: 800;
+    font-size: 42px;
+    position: relative;
+}
+
+.choose-head h1::before{
+    position: absolute;
+    content: "";
+    background-color: #d02353;
+    width: 10%;
+    height: 5px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    bottom: -20px;
+}
+
+.choose-box{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.choose-icon{
+    width: 5.5rem;
+    height: 4rem;
+    padding: 0 .75rem;
+    margin-bottom: 1.5rem;
+}
+
+.choose-content{
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 0 .75rem;
+}
+
+.choose-content h2{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+.choose-content p{
+    color: #585858;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+/* new arrivals */
+.new-arrivals{
+    padding: 70px 0;
+}
+
+.arrivals-head{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.arrivals-head h3{
+    color: #2a2626;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.arrivals-head p{
+    color: #585858;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.arrivals-head a{
+    background: #d02353;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all .3s ease;
+    border: 1px solid #d02353;
+    text-transform: uppercase;
+    max-width: 200px;
+    text-align: center;
+}
+
+.arrivals-head a:hover{
+    background: #fff;
+    color: #d02353;
+}
+
+.grid-inner{
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.product-img{
+    position: relative;
+    overflow: hidden;
+}
+
+.product-name{
+    padding: 15px 0;
+}
+
+.product-name h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #d02353;
+}
+
+.shop-cat{
+    background-color: #f3f3ed;
+    padding: 100px 0;
+}
+
+.cat-inner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.cat-inner1{
+    background-image: url(../img/furniture/category/beds.jpg);
+}
+
+.cat-inner2{
+    background-image: url(../img/furniture/category/tables.jpg);
+}
+
+.cat-inner3{
+    background-image: url(../img/furniture/category/sofas.jpg);
+}
+.cat-inner4{
+    background-image: url(../img/furniture/category/chairs.jpg);
+}
+.cat-inner5{
+    background-image: url(../img/furniture/category/lights.jpg);
+}
+.cat-inner6{
+    background-image: url(../img/furniture/category/wardrobes.jpg);
+}
+
+.cat-inner h5{
+    position: absolute;
+    top: auto;
+    left: 10px;
+    bottom: 0;
+    padding: 12px 22px;
+    background-color: #f3f3ed;
+    text-transform: uppercase;
+    font-size: .875rem;
+    font-weight: 700;
 }

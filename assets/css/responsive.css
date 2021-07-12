@@ -192,6 +192,12 @@
         max-width: 180px;
         margin: 0 auto;
     }
+    .choose-head h1{
+        font-size: 32px;
+    }
+    .choose-head h1::before{
+        width: 20%
+    }
 }
 
 @media(max-width: 450px){
@@ -239,6 +245,13 @@
     .product-img img{
         max-width: 180px;
         margin: 0 auto;
+    }
+    .product-img-grid img{
+        max-width: 100%;
+    }
+    .arrivals-head a{
+        max-width: 175px;
+        margin-bottom: 50px;
     }
     .count-head h1{
         font-size: 20px;
