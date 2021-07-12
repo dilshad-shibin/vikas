@@ -2731,6 +2731,10 @@ img {
     border: 1px solid #d02353;
 }
 
+.brand-btn .brand-btn-style2{
+    padding: 12px 40px;
+}
+
 .brand-btn .brand-btn-style:hover{
     background-color: #fff;
     color: #d02353;
@@ -3653,4 +3657,9 @@ img {
 .single-product2{
     box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
     margin: 10px;
+}
+
+/* Brands Page */
+.box-hidden{
+    display: none;
 }
