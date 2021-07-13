@@ -82,6 +82,16 @@
     .msn-vsn{
         padding: 70px 0 60px;
     }
+    .address-box{
+        margin-bottom: 30px;
+    }
+    .contact-area{
+        flex-direction: column;
+    }
+    .contact-area .map,
+    .contact-area .address-section{
+        width: 100%;
+    }
 }
 
 @media(max-width: 767px){
@@ -217,6 +227,12 @@
     }
     .choose-head h1::before{
         width: 20%
+    }
+    .contact-area .map iframe{
+        height: 400px;
+    }
+    .contact-area .address-section{
+        padding: 60px 30px;
     }
 }
 
