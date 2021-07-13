@@ -1482,6 +1482,7 @@ img {
     .wpo-header-style-3 #navbar>ul>li>a {
         color: #f7f4ec;
         text-transform: uppercase;
+        letter-spacing: 1px;
     }
 }
 
