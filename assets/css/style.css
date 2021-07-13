@@ -2860,6 +2860,7 @@ img {
     background-position: center;
     background-size: cover;
     height: 370px;
+    position: relative;
 }
 
 .breadcrum-inner{
@@ -3803,4 +3804,8 @@ img {
 .contact-form .submit-area button:hover{
     background-color: #fff;
     color: #d02353;
+}
+
+.bread-overlay{
+    display: none;
 }

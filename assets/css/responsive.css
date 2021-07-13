@@ -224,9 +224,11 @@
     }
     .ee-product{
         text-align: center;
+        box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
+        margin: 10px 10px 30px;
     }
     .seller-img img{
-        max-width: 180px;
+        max-width: 200px;
         margin: 0 auto;
     }
     .choose-head h1{
@@ -243,6 +245,16 @@
     }
     .single-product{
         margin: 10px;
+    }
+    .bread-overlay{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: #1a351a78;
+        opacity: .8;
     }
 }
 
@@ -289,7 +301,7 @@
         text-align: center;
     }
     .product-img img{
-        max-width: 180px;
+        max-width: 200px;
         margin: 0 auto;
     }
     .product-img-grid img{
