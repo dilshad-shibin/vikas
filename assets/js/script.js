@@ -462,11 +462,13 @@
     /*------------------------------------------
         = TESTIMONIALS SLIDER
     -------------------------------------------*/
-    if ($(".wpo-testimonial-slider").length) {
-        $(".wpo-testimonial-slider").owlCarousel({
-            center: true,
+    if ($(".testi-slider").length) {
+        $(".testi-slider").owlCarousel({
             loop: true,
-            margin: 30,
+            margin: 20,
+            autoplay: true,
+            nav: true,
+            navText: ['<i class="fi ti-angle-left"></i>', '<i class="fi ti-angle-right"></i>'],
             responsive: {
                 0: {
                     items: 1,
@@ -474,7 +476,6 @@
 
                 650: {
                     items: 2,
-                    center: false,
                     margin: 10
                 },
 

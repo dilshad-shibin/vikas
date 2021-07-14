@@ -256,6 +256,9 @@
         background: #1a351a78;
         opacity: .8;
     }
+    .testi-head h2{
+        font-size: 35px;
+    }
 }
 
 @media(max-width: 450px){
