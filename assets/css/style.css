@@ -3253,6 +3253,145 @@ img {
     color: #d02353;
 }
 
+/* Quotes area */
+.quotes-area{
+    background-image: url(../img/quotes.jpg);
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8rem 0;
+}
+
+.quotes-bg h2{
+    color: #fff;
+    line-height: 1.2;
+    font-size: 1.9rem;
+    margin-bottom: 40px;
+}
+
+.quotes-bg span.qt-name{
+    font-size: 1.5rem;
+    line-height: 1;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    position: relative;
+    padding-left: 4.5rem;
+}
+
+.quotes-bg span.qt-name::before{
+    background-color: whitesmoke;
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 2.5rem;
+    top: 40%;
+    left: 0;
+}
+
+.quotes-bg span.qt-name::after{
+    position: absolute;
+    content: '';
+    background-color: whitesmoke;
+    height: 1px;
+    width: 2.5rem;
+    bottom: 35%;
+    left: 1rem;
+}
+
+.video-play-btn{
+    position: relative;
+    display: block;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+.video-play-btn i{
+    height: 5rem;
+    width: 5rem;
+    background-color: #fff;
+    color: #d02353;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 5rem;
+    text-align: center;
+}
+
+.video-play-btn::before{
+    width: 6rem;
+    height: 6rem;
+    line-height: 7rem;
+}
+
+.video-play-btn::after{
+    width: 8rem;
+    height: 8rem;
+    line-height: 9rem;    
+}
+
+.video-play-btn::before,
+.video-play-btn::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: rgb(255, 255, 255,.6);
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-animation: play-pluse 1500ms ease-out infinite;
+    animation: play-pluse 1500ms ease-out infinite;
+    z-index: -1;
+}
+
+@-webkit-keyframes play-pluse {
+    0% {
+      -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(.5);
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(.5);
+      opacity: 0;
+    }
+    0% {
+      -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(.5);
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(.5);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.6);
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.6);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes play-pluse {
+    0% {
+      -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(.5);
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(.5);
+      opacity: 0;
+    }
+    0% {
+      -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(.5);
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(.5);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.6);
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.6);
+      opacity: 0;
+    }
+  }
+
+  .quotes-bg .owl-dots{
+      margin-top: 30px;
+  }
+
+
+
+
+
 /*---- Electronics Page ----- */
 .box2-area{
     padding: 100px 0;

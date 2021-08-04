@@ -486,6 +486,32 @@
         });
     }
 
+    /*------------------------------------------
+        = Quotes SLIDER
+    -------------------------------------------*/
+    if ($(".quotes-slider").length) {
+        $(".quotes-slider").owlCarousel({
+            loop: true,
+            margin: 20,
+            autoplay: true,
+            nav: false,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+
+                650: {
+                    items: 1
+                },
+
+                992: {
+                    items: 1
+                }
+            }
+        });
+    }
+
 
     /*------------------------------------------
         = TEAM SLIDER

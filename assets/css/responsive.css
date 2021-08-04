@@ -265,6 +265,12 @@
     .news-head h1{
         font-size: 35px;
     }
+    .quotes-bg h2{
+        font-size: 1.5rem;
+    }
+    .quotes-bg span.qt-name{
+        font-size: 1.2rem;
+    }
 }
 
 @media(max-width: 450px){
