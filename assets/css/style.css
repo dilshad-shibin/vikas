@@ -3039,6 +3039,8 @@ img {
     border-radius: 30px;
     transition: all .3s ease-in-out;
     transform: translateY(0);
+    margin-bottom: 30px;
+    min-height: 500px;
 }
 
 .msn-box:hover{
@@ -3052,6 +3054,10 @@ img {
 
 .msn-box2{
     margin-left: 30px;
+}
+
+.msn-box3{
+    min-height: 0;
 }
 
 .msn-head h1{
@@ -3096,6 +3102,7 @@ img {
     background-color: #fff;
     border: 1px solid #e6f0fa;
     text-align: center;
+    min-height: 448px;
 }
 
 .client-info{

@@ -209,6 +209,7 @@
     }
     .msn-box{
         padding: 20px;
+        min-height: auto;
     }
     .box2-area .banner .banner-image{
         flex: 100%;
